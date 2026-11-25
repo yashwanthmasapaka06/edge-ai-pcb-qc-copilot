@@ -1,0 +1,24 @@
+description: Ultralytics best model trained on /content/dataset/data.yaml
+author: Ultralytics
+date: '2026-11-25T02:17:21.800334+00:00'
+version: 8.4.218
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: Detect
+batch: 1
+imgsz:
+- 416
+- 416
+names:
+  0: mouse_bite
+  1: spur
+  2: missing_hole
+  3: short
+  4: open_circuit
+  5: spurious_copper
+args:
+  quantize: null
+channels: 3
+end2end: false

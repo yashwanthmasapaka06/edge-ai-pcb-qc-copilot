@@ -1,0 +1,8 @@
+ultralytics
+ncnn
+executorch
+tokenizers
+opencv-python-headless
+numpy
+pyyaml
+flask
